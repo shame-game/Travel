@@ -263,7 +263,6 @@ img {
 }
 
 img.footer-logo {
-	max-height: 38px;
 	width: auto;
 }
 
@@ -1075,7 +1074,8 @@ body #navigation.style-1 ul ul li:hover ul li a:hover {
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-	margin-right: 25px;
+	margin-right: 0;
+	right: 0;
 	top: 9px;
 	vertical-align: top;
 	padding-left: 25px;
@@ -1093,7 +1093,7 @@ body #navigation.style-1 ul ul li:hover ul li a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 130px;
-}*/
+}
 
 .user-menu .user-name:after {
 	content: "\f107";
@@ -1104,7 +1104,7 @@ body #navigation.style-1 ul ul li:hover ul li a:hover {
 	margin-left: 6px;
 	color: #aaa;
 }
-
+*/
 .user-menu.active .user-name:after,
 .user-menu:hover .user-name:after,
 .user-menu.active .user-name,
